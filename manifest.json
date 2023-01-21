@@ -1,0 +1,10 @@
+{
+    "name": "URL Limiter",
+    "version": "1.0",
+    "host_permissions": [
+    "http://*/*","https://*/*"
+],
+    "background": {
+        "service_worker": "background.js"},
+    "manifest_version": 3
+}
